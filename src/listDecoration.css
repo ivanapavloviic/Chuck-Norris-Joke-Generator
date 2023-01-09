@@ -1,0 +1,22 @@
+ul li
+{ display:block; }
+li a{
+    color:#9B5D26
+}
+li a:hover{
+    color:#ffd52d
+}
+.slider
+{ width:100%; overflow:hidden; }
+
+ul { animation: slide-left 1s; }
+
+@keyframes slide-left {
+ from {
+  margin-top: 100%; width: 300%; 
+ }
+
+to {
+  margin-top: 0%; width: 100%;
+ }
+}
